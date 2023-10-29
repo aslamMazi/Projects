@@ -1,0 +1,339 @@
+
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  html{
+    font-size:100%;
+  }
+  
+  html body
+  {   width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden; 
+  }
+  /* nav-bar designe */
+  #navbar{
+    display:flex;
+    justify-content:right;
+     background-color:rgb(189, 47, 47);
+     position:fixed;
+  z-index:1;
+  width:100%;
+  }
+  #navbar ul{
+  display:flex;
+  padding:1.4rem;
+  list-style:none;
+  }
+  #navbar a{
+    text-decoration:none;
+    color:white;
+    font-family:arial, sans, sans-serif;
+    padding:1.5rem 1rem 1.5rem 1rem;
+    margin:1rem;
+    font-size:1.5rem;
+  }
+  
+  /*if  hover on nav items */
+  #navbar a:hover{
+    text-decoration:none;
+    color:white;
+    background-color:rgb(98, 98, 134);
+    font-family:arial, sans, sans-serif;
+    padding:1.5rem 1rem 1.5rem 1rem;
+    margin:1rem;
+    font-size:1.5rem;
+  }
+  
+  /* Welcom section */
+  #welcome-section{
+    background:rgb(39, 38, 38);
+    color:rgb(228, 220, 220);
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  #welcome-section .boxOne{
+   /* border:solid 2px yellow; */
+   width:30rem;
+   height:20rem;
+   justify-content:center;
+   align-items:center;
+   position:absolute;
+  }
+  .boxOne h1{
+    font-family:arial, sans, sans-serif;
+    font-size:3.5rem;
+    display:flex;
+    justify-content:center;
+    color:white;
+    margin: 3rem 0rem 0rem 0rem;
+  }
+  .boxOne p{
+    font-style:italic;
+    font-size:2.2rem;
+    padding:0.2rem;
+    display:flex;
+    justify-content:center;
+    color:rgb(168, 48, 48);
+    font-family:arial, sans, sans-serif;
+    
+  }
+  
+  /* prject tile section */
+  /* project heading */
+  #projects{
+    background-color:rgb(62, 62, 107);
+    width:100%;
+    height:80rem;
+  }
+  
+  #projects h2{
+  display:flex;
+  justify-content:center;
+  position:relative;
+  top:2.5rem;
+  font-size:2.5rem;
+  color:white;
+  font-family:arial, sans, sans-serif;
+  }
+  #projects hr{
+    width:35rem;
+    display:block;
+    margin:3.5rem auto 0rem auto;
+  }
+  
+  /* projects tile frist */
+  .project-tile-st {
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    /* border:solid 2px red; */
+    position:relative;
+  top:3rem;
+  margin:0 rem 1rem 1rem 1rem;
+  }
+  
+  /* project tile second */
+  .project-tile-nd {
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    /* border:solid 2px red; */
+    position:relative;
+  top:12rem;
+  margin:0 rem 1rem 1rem 1rem;
+  }
+  
+  .project-item {
+     /* border:solid 2px yellow; */
+     display:block;
+  width:22rem;
+  height:24rem;
+  }
+  
+  iframe{
+    display:block;
+    /* border:solid 2px green; */
+    width:100%;
+  height:100%;
+  }
+  
+  .project-item a {
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      font-size: 1.5rem;
+      background-color: rgb(36, 41, 38);
+      width: 19.2rem;
+      text-decoration:none;
+  border-radius:0rem 0rem 0.5rem 0.5rem;
+  }
+  /* if hover on projects name */
+  .project-item a:hover {
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      font-size: 1.5rem;
+      background-color: rgb(86, 95, 90);
+      width: 19.2rem;
+      text-decoration:none;
+      font-weight:bold;
+      transition: 0.5s;
+  border-radius:0rem 0rem 1rem 1rem;
+  }
+  /* more project btn */
+  #more-project-btn{
+    position:relative;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  top:18rem;
+  margin:1rem auto 0rem auto;
+  width:10rem;
+  height:3rem;
+  padding:0.8rem;
+  font-size:1.5rem;
+  font-family:arial, sans, sans-serif;
+  background-color: rgb(36, 41, 38);
+  border:solid 2px rgb(36, 41, 38);
+  color:rgb(252, 248, 248);
+  border-radius:0.5rem;
+  }
+    
+    #more-project-btn:hover{
+    position:relative;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  top:18rem;
+  margin:1rem auto 0rem auto;
+  width:10rem;
+  height:3rem;
+  padding:0.8rem;
+  font-size:1.5rem;
+  font-family:arial, sans, sans-serif;
+  background-color: rgb(86, 95, 90);
+  border:solid 2px rgb(86, 95, 90);
+  color:rgb(0, 0, 0);
+  transition: 0.5s;
+  border-radius:1rem;
+  }
+  
+  /* profile section */
+  #profile{
+    background:rgb(39, 38, 38);
+    color:rgb(228, 220, 220);
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  
+  #profile #profileBox{
+   width:40rem;
+   height:7rem;
+   justify-content:center;
+   align-items:center;
+   position:relative;
+   top:-7rem;
+  }
+  #profileBox h1{
+    font-family:arial, sans, sans-serif;
+    font-size:3.5rem;
+    display:flex;
+    justify-content:center;
+    color:white;
+    
+  }
+  #profileBox p{
+    font-style:italic;
+    font-size:1.2rem;
+    padding:1rem 0rem 0rem 0rem;
+    display:flex;
+    justify-content:center;
+    color:rgb(252, 252, 252);
+    font-family:arial, sans, sans-serif;
+  }
+  
+  /* media icons */
+   #socialMediaProfile{
+    /* border:solid 2px red; */
+     position:absolute;
+     width:60rem;
+     height:6rem;
+     top:140rem;
+  }
+  
+  #socialMediaProfile ul {
+     list-style:none;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+    position:relative;
+    top:3rem;
+  }
+  
+  #socialMediaProfile a{
+    padding:1rem;
+  }
+  /* logos */
+  .fa {
+    font-size: 1.5rem;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5rem 2rem;
+    position:relative;
+    border-radius:0.2rem;
+  }
+  
+  .fa:hover {
+      opacity: 0.8;
+      transition: 0.7s;
+      margin:3rem;
+      top:-0.5rem;
+      border-radius:1rem;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+   #profile #hr{
+    width:100%;
+    height:0.3rem;
+    position:absolute;
+    top:150rem;
+    margin:0;
+    padding:0;
+    background-color:rgb(189, 47, 47);
+  }
+   
+   /* footer */
+   #footer{
+     position:absolute;
+     top:150rem;
+     padding:1rem;
+     width:100%;
+     font-size:1.2rem;
+     height:4rem;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     font-family:arial, sans, sans-serif;
+   }
+  
+   #footer p{
+     margin:0rem 2rem;
+   }
+  
+   

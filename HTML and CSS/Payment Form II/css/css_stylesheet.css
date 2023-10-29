@@ -1,0 +1,98 @@
+.first_heading{
+
+background-color: rgb(75, 244, 244);
+color: white;
+padding: 15px;
+margin: 0%;
+
+}
+.main_heading{
+
+text-align: center;
+
+}
+.childe_one{
+    text-align: center;
+    color: rgb(73, 72, 72);
+}
+
+.content{
+
+box-sizing: border-box;
+border: none;
+margin:2% 20% 2% 20%;
+padding: 5px;
+}
+.pay_for{
+    border: solid 1px rgb(169, 166, 166);
+    border-radius: 4px;
+width: 62%;
+padding: 10px;
+
+}
+
+.ammount{
+    border: solid 1px rgb(169, 166, 166);
+    border-radius: 4px;
+width: 30%;
+padding: 10px;
+float: right;
+}
+
+textarea{
+    border: solid 1px rgb(169, 166, 166);
+    border-radius: 4px;
+padding:10px ;
+margin-block-start: 01%;
+width: 97%;
+}
+h6{
+color: rgba(28, 27, 27, 0.507);
+margin-top: -2%;
+
+}
+
+input[type="email"]{
+    border: solid 1px rgb(169, 166, 166);
+    border-radius: 4px;
+
+width: 97%;
+padding: 10px;
+
+}
+.first_name{
+    border: solid 1px rgb(169, 166, 166);
+    border-radius: 4px;
+padding: 10px;
+display: inline;
+float: left;
+width: 45%;
+margin-top: 2%;
+
+}
+.last_name{
+    border: solid 1px rgb(169, 166, 166);
+    border-radius: 4px;
+width: 45%;
+padding: 10px;
+display: inline;
+margin-left: 3%;
+margin-top: 2%;
+}
+input[type="submit"]{
+    padding: 12px;
+    margin-top: 2%;
+border: none;
+border-radius: 3px;
+width: 96%;
+background-color: rgb(233, 229, 229);
+color: rgb(188, 184, 184);
+text-align: center;
+margin-left: 2%;
+}
+input[type="submit"]:hover{
+color: white;
+background-color: gray;
+cursor: pointer;
+
+}

@@ -1,0 +1,128 @@
+body{
+    background: url(images/strong-brunette-doing-shoulder-press.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+}
+.left{
+/* border: solid 2px red; */
+display: block;
+position: absolute;
+top: -10px;
+left: 5px;
+width: 80px;
+height: 80px;
+
+}
+.left img {
+width: 80px;
+}
+.mid{
+/* border: solid 2px green; */
+display:block;
+position: absolute;
+width: 45%;
+margin: 26px 25%;
+/* padding: 20px; */
+
+}
+.navbar li{
+display:inline;
+}
+
+.navbar a{
+display:inline;
+text-decoration: none;
+margin: 0px 8px;
+/* font-size: larg; */
+color: rgb(0, 0, 0);
+background-color: rgba(255, 255, 255, 0.5);
+
+border: 2px solid rgb(255, 255, 255, 0.5);
+border-radius: 6px;
+padding: 4px;
+}
+.navbar a:hover{
+color: gray;
+background-color: white;
+font-weight: bold;
+}
+.right{
+/* border: solid 2px yellow; */
+display: block;
+position: absolute;
+top: 40px;
+right: 60px;
+}
+.btn{
+color: rgb(0, 0, 0);
+background-color: rgba(255, 255, 255, 0.5);
+
+border: 2px solid rgb(255, 255, 255, 0.5);
+border-radius: 6px;
+padding: 4px;
+cursor: pointer;
+}
+.btn:hover{
+color: black;
+background-color: rgb(255, 255, 255, 0.7);
+border: 2px rgb(255, 255, 255, 0.7) solid;
+border-radius: 4px;
+font-weight: bold;
+}
+.container{
+/* border: 2px solid red; */
+display: inline;
+position: absolute;
+margin-top: 12%;
+margin-left: 8%;
+width: 45%;
+height: 70%;
+}
+.container > h2{
+text-align: center;
+text-decoration:underline;
+color:black;
+font-style: italic;
+background-color: rgb(255, 255, 255, 0.7);
+border: 2px solid white;
+border-radius: 20px;
+}
+/* .leading_word{ 
+font-weight: bolder;
+} */
+
+.form input{
+display: block;
+position:relative;
+width: 80%;
+margin: 6px auto;
+padding: 10px;
+text-align: center;
+border: solid white 2px;
+border-radius: 6px;
+background-color: rgba(122, 122, 122, 0.5);
+color: rgb(0, 0, 0);
+cursor: pointer;
+}
+.submit{
+margin-top: 15px;
+}
+#submit{
+font-size: large;
+}
+.form  input:hover{
+border:gray solid 2px ;
+background-color: white;
+color: black;
+font-weight: bold;
+}
+input[type="submit"]{
+
+color: rgb(0, 0, 0);
+background-color: rgba(255, 255, 255, 0.5);
+
+border: 2px solid rgb(255, 255, 255, 0.5);
+border-radius: 6px;
+}

@@ -1,0 +1,332 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* html{
+    size: ;
+} */
+/* navbar */
+#navbar{ 
+    font-family: sans-serif;
+    display:flex;
+    align-items: center;
+    position:fixed;
+    height: 100px;
+    width: 100%;
+    
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+}
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul .items{
+list-style: none;
+}
+#navbar ul .items a{
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    margin: 4px 26px;
+
+
+}
+#navbar ul .items a:hover{
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    
+
+}
+
+
+#navbar img{
+    border: 1px solid whitesmoke;
+    border-radius: 100%;
+height: 90px;
+width: 90px;
+}
+
+/*home styling*/
+#home{
+    display: flex;
+  flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+height: 600px;
+
+}
+
+#home::before{
+content:"";
+position: absolute;
+background: url(../images/drakfoodbackground.img.jpg) no-repeat center center/cover ;
+width: 100%;
+height: 590px;
+top: 0px;
+z-index: -1;
+opacity: 0.98;
+}
+
+
+#home h1{
+    padding: 0px 0px 30px 0px;
+    color: white;
+}
+
+#home p{
+    padding: 0.4rem;
+    color: white;
+}
+/* button styling of home */
+.btn{
+    padding: 6px;
+    font-size: 1.1rem;
+    color: white;
+    margin: 1.2rem;
+    height:2.6rem;
+    width: 10rem;
+    border: solid 2px black;
+    border-radius: 25px;
+    background-color: black;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+/* services section */
+
+
+    /* border: 2px solid green; */
+
+#our_services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:unset;
+    top: 100%;
+    margin: 10px;
+    
+}
+
+
+
+
+#services div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+border: 2px solid red;
+margin: 4px;
+padding: 6px;
+background-color: rgb(205, 205, 205);
+height: 400px;
+width: auto;
+}
+
+#services #food_order{
+    border: 2px solid rgb(67, 66, 66);
+    border-radius: 10%;
+}
+
+#services #black-wood-pizza_img{
+height: 150px;
+width: 245px;
+border: 2px solid rgb(67, 66, 66);
+border-radius: 20px;
+margin: 10% auto;
+}
+
+#services #catering{
+    border: 2px solid rgb(67, 66, 66);
+    border-radius: 10%;
+}
+
+#services #catering_img{
+    border: 2px solid rgb(163, 161, 161);
+    border-radius: 10%;
+    height: 170px;
+    width: 250px;
+    margin: 6% auto;
+}
+
+
+#services #home_delevry{
+    border: 2px solid rgb(67, 66, 66);
+    border-radius: 10%;
+}
+
+#services #home_delevry_img{
+    border: 2px solid rgb(186, 182, 182);
+    border-radius: 10%;
+    height: 170px;
+margin: 6% auto;
+}
+
+/*clints section */
+
+#clints{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    width: 100%;
+    gap: 90px;
+}
+
+
+/* contact form section  */
+ /* #contact_us{ */
+    
+    /* border: solid 2px red; }*/
+#contact_form{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background: url(../images/hands-coffee-smartphone-.jpeg) no-repeat center center/cover;
+    height: 500px;
+    
+}
+#contact_form label{
+display:inline;
+}
+
+input{
+    text-align: center;
+}
+
+
+.contact_details{ 
+    margin: 8px;
+    margin-left: 30px;
+    padding: 10px;
+    height: 15px;
+    width: 500px;
+    border: 2px solid rgb(231, 224, 224);
+    border-radius: 6px;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+.contact_details:hover{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+#address{
+    margin: 8px;
+    margin-left: 30px;
+    padding: 10px;
+    height: 90px;
+    width: 500px;
+    border: 2px solid rgb(231, 224, 224);
+    border-radius: 6px;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+/* .address{
+    border: 2px solid red;
+    display: inline;
+} */
+#contact_form label{
+    /* border: solid 2px red; */
+    /* background-color: blue; */
+    width: 600px;
+}
+
+    
+
+
+#address:hover{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+#form_button{
+    margin: 8px;
+    margin-left: 30px;
+    padding: 10px;
+    height: 45px;
+    width: 530px;
+    border: 2px solid rgb(231, 224, 224);
+    border-radius: 10px;
+    font-family: sans-serif;
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+}
+/* @media screen and (max-width:1155px) {
+#form_button{
+    width: 20rem;
+}
+} */
+
+#form_button:hover{
+    color: black;
+    border: black solid 2px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    height: 20px;
+    width: 100%;
+}
+#hr_for_footer{
+    border: solid 2px red;
+}
+
+
+
+/* utility classes */
+.h-secondry{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h-primary{
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+hr{
+    border: solid 2px whitesmoke;
+}
