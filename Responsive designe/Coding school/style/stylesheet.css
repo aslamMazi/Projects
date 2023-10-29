@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* color: aliceblue; */
+}
+html{
+    height: 100vh;
+    width: 100vw;
+    
+    /* background-color: green; */
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    /* background-color: #000; */
+}
+
+/* main */
+.main{
+height: 100%;
+width: 100%;
+position: relative;
+}
+
+/* navbar */
+.nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+    border-bottom:2px solid  #dadadd;
+    color: #2A454E;
+}
+.nav h2{
+    font-size: 2.5vw;
+    font-weight: 700;
+    
+}
+
+/* nav_part 2 */
+.nav_part2{
+display: flex;
+/* background-color: blue; */
+gap: 4vw;
+}
+
+.nav h4{
+    font-size: 1.5vw;
+}
+
+
+.nav i {
+    font-size: 2vw;
+    font-weight: 800;
+    align-items: center;
+    display: none;
+}
+.nav h4:hover{
+    border: none;
+    border-radius: 0.2em;
+    background-color: aqua;
+    color: white;
+}
+
+/* content */
+.content{
+    /* background-color: burlywood; */
+    height: calc(100% - 104px);
+    
+    display: flex;
+    position: relative;
+
+}
+
+/* left */
+.left{
+    height: 100%;
+    width: 55%;
+    /* background-color: crimson; */
+    padding: 2vw 4vw;
+}
+.left h1{
+    font-size: 4vw;
+    line-height: 3.5vw;
+}
+.left span{
+    color: rgb(1,134,115);
+}
+
+.left p {
+    color:rgb(1,134,115);
+    width: 80%;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+}
+
+button{
+font-size: 2vw;
+padding: 1vw 2vw;
+background-color: rgb(0,200,172);
+color: #fff;
+border: none;
+border-radius: 5px;
+font-weight: 700;
+}
+
+/* hover on button */
+button:hover{
+border:none;
+border-radius: 0.5em;
+}
+/* right */
+.right{
+    height: 100%;
+    width: 45%;
+    /* border: solid 2px red; */
+    /* background-color: royalblue; */
+}
+.right img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+/* media query for responsivness */
+@media (max-width:600px){
+    .nav{
+        padding: 0 5vw;
+        height: 20vw;
+    }
+
+    .nav h2{
+        font-size: 8vw;
+    }
+
+    .nav_part2 h4{
+        font-size: 4vw;
+        display: none;
+    }
+.nav i {
+    display: block;
+    font-size: 6vw;
+}
+
+.content{
+    height: calc(100% - 120px);
+    flex-direction: column;
+}
+.right{
+    width: 100%;
+    height: 100%;
+}
+.left{
+    width: 100%;
+    height: 50%;
+}
+.left h1{
+    font-size: 3em;
+    line-height: 1em;
+}
+
+button{
+    width: 12em;
+    padding-right: 1em;
+    
+}
+}
